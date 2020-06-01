@@ -1,0 +1,124 @@
+@media (max-width: 1220px) {
+  .advantages__text {
+    padding-left: 20px;
+  }
+  .design-images img {
+    width: 100%;
+  }
+}
+@media (max-width: 1020px) {
+  .design-row {
+    display: block;
+  }
+  .design-row__item {
+    max-width: 100%;
+  }
+  .design-row__item--text {
+    max-width: 100%;
+  }
+  .design__images,
+  .design-row {
+    margin-bottom: 50px;
+  }
+  .design-row__item {
+    margin-bottom: 30px;
+    padding-right: 0;
+  }
+}
+@media (max-width: 930px) {
+  .advantages-inner__row {
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .advantages__title {
+    position: static;
+  }
+  .advantages-descr {
+    text-align: center;
+  }
+  .advantages__text {
+    margin: 20px auto;
+    padding-left: 0;
+  }
+  /* еще лучше вариант был убрать с  .advantages__title--bottom {
+    order: -1 - эту запись;
+    а в  .advantages-inner__row--mobile .advantages-descr добавитьflex-direction: column-reverse; 
+  }*/
+  .advantages-inner__row--mobile .advantages-descr {
+    order: -1;
+    display: flex;
+    flex-direction: column;
+  }
+  .advantages__title--bottom {
+    order: -1;
+  }
+}
+@media (max-width: 820px) {
+  .statistics-items {
+    flex-wrap: wrap;
+  }
+  .statistics-item {
+    padding: 50px;
+  }
+}
+@media (max-width: 650px) {
+  .advantages__img img {
+    width: 100%;
+  }
+  .design-row__item--text {
+    font-size: 20px;
+  }
+}
+@media (max-width: 440px) {
+  .header-content__title {
+    font-size: 80px;
+    margin-top: 20px;
+    line-height: 90px;
+  }
+}
+@media (max-width: 410px) {
+  body {
+    line-height: 24px;
+    font-size: 20px;
+  }
+  .logo img {
+    width: 200px;
+  }
+  .header-content__title {
+    font-size: 70px;
+    line-height: 41px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+  .menu__list a {
+    font-size: 33px;
+    line-height: 40px;
+    display: block;
+    padding: 19px 5px 7px 0;
+    min-width: 100%;
+  }
+  .menu__list ul {
+    width: 100%;
+  }
+  .button {
+    padding: 20px 45px;
+  }
+  /* что бы исчезли кружочки номерации слайдов */
+  .slider .slick-dots button {
+    display: none;
+  }
+  .statistics {
+    margin: 110px 0 50px;
+  }
+  .statistics-item {
+    padding: 25px 0;
+  }
+  .video {
+    margin-bottom: 50px;
+  }
+  .advantages__text {
+    width: 100%;
+  }
+}
